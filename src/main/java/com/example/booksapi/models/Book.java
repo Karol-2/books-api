@@ -16,11 +16,11 @@ public class Book {
     private String title;
     private String author;
     private Integer year;
-    private Integer rating;
+    private Double rating;
 
     public Book(){}
 
-    public Book(String title, String author, Integer year, Integer rating){
+    public Book(String title, String author, Integer year, double rating){
         this.title = title;
         this.author = author;
         this.year = year;
